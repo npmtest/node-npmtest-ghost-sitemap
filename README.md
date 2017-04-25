@@ -1,6 +1,6 @@
 # npmtest-ghost-sitemap
 
-#### basic test coverage for  ghost-sitemap (v0.0.3)  [![npm package](https://img.shields.io/npm/v/npmtest-ghost-sitemap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghost-sitemap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghost-sitemap.svg)](https://travis-ci.org/npmtest/node-npmtest-ghost-sitemap)
+#### basic test coverage for  [ghost-sitemap (v0.0.3)](https://github.com/thetutlage/ghost-sitemap)  [![npm package](https://img.shields.io/npm/v/npmtest-ghost-sitemap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghost-sitemap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghost-sitemap.svg)](https://travis-ci.org/npmtest/node-npmtest-ghost-sitemap)
 
 #### Frustation free sitemap generator for ghost
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ghost-sitemap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ghost-sitemap/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ghost-sitemap/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ghost-sitemap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ghost-sitemap/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ghost-sitemap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ghost-sitemap/build/coverage.html/index.html)
 
@@ -35,19 +35,15 @@
 ```json
 
 {
-    "name": "ghost-sitemap",
-    "version": "0.0.3",
-    "description": "Frustation free sitemap generator for ghost",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "author": {
+        "name": "amanvirk"
     },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/thetutlage/ghost-sitemap.git"
+    "bin": {
+        "ghostSitemap": "index.js"
     },
-    "author": "amanvirk <virk.officials@gmail.com>",
-    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thetutlage/ghost-sitemap/issues"
+    },
     "dependencies": {
         "async": "^0.9.0",
         "colors": "^1.0.3",
@@ -65,15 +61,37 @@
         "sitemap": "^0.7.4",
         "sqlite3": "^3.0.2"
     },
+    "description": "Frustation free sitemap generator for ghost",
     "devDependencies": {
         "gulp": "^3.8.10",
         "gulp-coffee": "^2.2.0",
         "gulp-util": "^3.0.1",
         "gulp-watch": "^1.1.0"
     },
-    "bin": {
-        "ghostSitemap": "index.js"
-    }
+    "directories": {},
+    "dist": {
+        "shasum": "2d2911adffbc3e238100857f69cfc9ed7e2f48ba",
+        "tarball": "https://registry.npmjs.org/ghost-sitemap/-/ghost-sitemap-0.0.3.tgz"
+    },
+    "gitHead": "afef7d152ed0358b14d265bfc038d02ee36348bb",
+    "homepage": "https://github.com/thetutlage/ghost-sitemap",
+    "license": "ISC",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "amanvirk"
+        }
+    ],
+    "name": "ghost-sitemap",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/thetutlage/ghost-sitemap.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.0.3"
 }
 ```
 
